@@ -1,0 +1,23 @@
+#home span{
+    font-size: 30px !important;
+    font-weight: bold;
+}
+a{
+   text-decoration: none;
+  
+}
+#home{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+#home img{
+    width: 60px;
+}
+.navBar{
+    background-color: black !important;
+}
+.navBar a{
+    color: white;
+    margin-left: 20px;
+}

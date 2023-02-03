@@ -1,0 +1,42 @@
+.product{
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.product img{
+    height: 240px !important;
+}
+.group{
+   gap: 40px !important;
+   flex-wrap: wrap !important;
+}
+.card{
+    width: 300px !important;
+}
+         
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    outline: none !important;
+    border: 0 !important;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
